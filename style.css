@@ -196,18 +196,16 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+
 .profile-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    filter: grayscale(80%) contrast(1.1);
     transition: all 0.3s ease;
 }
 
-.profile-image-container:hover img {
-    filter: grayscale(0%);
-}
+
 
 .profile-image-container::after {
     content: '';
